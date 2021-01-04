@@ -1,4 +1,4 @@
 ./a.exe
-./test.c
-./test.cpp
-./test.java
+*.c
+*.cpp
+*.java
