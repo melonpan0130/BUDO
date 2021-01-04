@@ -4,10 +4,11 @@ const serverless = require('serverless-http');
 const app = express();
 const router = express.Router();
 
+app.set('view engine', 'pug');
+app.set('views', '../views');
+
 router.get('/', (req, res)=> {
-    res.json({
-        'hello' : 'hi'
-    });
+    res.render('test');
 });
 
 router.get('/test', (req, res)=> {
@@ -16,5 +17,5 @@ router.get('/test', (req, res)=> {
     });
 });
 
-app.use('/.netlify/functions/api', router);
+// app.use('/.netlify/functions/api', router);
 module.exports.handler = serverless(app);
