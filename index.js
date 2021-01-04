@@ -1,6 +1,9 @@
 const express = require('express');
 const app = express();
 const http = require('http').Server(app);
+// test
+const serverless = require('serverless-http');
+
 const fs = require('fs');
 const spawn = require('child_process').spawn;
 const bodyParser = require('body-parser');
@@ -48,6 +51,10 @@ app.post('/form_receive',function(req,res) {
     });
 });
 
-http.listen(process.env.PORT || 8080, ()=> {
-    console.log('Connect at 8080');
-})
+// http.listen(process.env.PORT || 3000, ()=> {
+//     console.log('Connect at 8080');
+// });
+
+module.exports.handler = serverless(app);
+
+app.listen(3000, () => console.log('Local app listening on port 3000!'));

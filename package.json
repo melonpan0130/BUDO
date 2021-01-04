@@ -7,6 +7,10 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "keywords": [
+    "netlify",
+    "express.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melonpan0130/BUDO.git"
@@ -19,7 +23,9 @@
   "homepage": "https://github.com/melonpan0130/BUDO#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "netlify-lambda": "^2.0.2",
     "parse-json": "^5.1.0",
-    "pug": "^3.0.0"
+    "pug": "^3.0.0",
+    "serverless-http": "^2.6.0"
   }
 }
