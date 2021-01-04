@@ -4,7 +4,7 @@
   "description": "Lecture for programming",
   "main": "index.js",
   "scripts": {
-    "build": "netlify-lambda build express",
+    "build": "node index.js",
     "start": "node index.js"
   },
   "keywords": [
