@@ -1,0 +1,23 @@
+{
+  "name": "budo",
+  "version": "1.0.0",
+  "description": "Lecture for programming",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melonpan0130/BUDO.git"
+  },
+  "author": "EUNJU/KIORI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/melonpan0130/BUDO/issues"
+  },
+  "homepage": "https://github.com/melonpan0130/BUDO#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pug": "^3.0.0"
+  }
+}
