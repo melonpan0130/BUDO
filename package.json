@@ -1,21 +1,18 @@
 {
-  "name": "budo",
+  "name": "BUDO",
   "version": "1.0.0",
-  "description": "Lecture for programming",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/netlify-landa serve src",
-    "build": "./node_modules/.bin/netlify-landa build src"
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
-  "keywords": [
-    "netlify",
-    "express.js"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/melonpan0130/BUDO.git"
   },
-  "author": "EUNJU/KIORI",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/melonpan0130/BUDO/issues"
@@ -24,8 +21,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "netlify-lambda": "^2.0.2",
-    "parse-json": "^5.1.0",
-    "pug": "^3.0.0",
     "serverless-http": "^2.6.0"
   }
 }

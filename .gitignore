@@ -1,6 +1,2 @@
-./a.exe
-*.c
-*.cpp
-*.java
-node_modules
+./node_modules
 functions
