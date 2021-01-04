@@ -48,6 +48,6 @@ app.post('/form_receive',function(req,res) {
     });
 });
 
-http.listen(3000, ()=> {
-    console.log('Connect at 3000');
+http.listen(process.env.PORT || 8080, ()=> {
+    console.log('Connect at 8080');
 })
