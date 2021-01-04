@@ -21,6 +21,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "netlify-lambda": "^2.0.2",
+    "pug": "^3.0.0",
     "serverless-http": "^2.6.0"
   }
 }
