@@ -57,4 +57,4 @@ app.post('/form_receive',function(req,res) {
 
 module.exports.handler = serverless(app);
 
-app.listen(3000, () => console.log('Local app listening on port 3000!'));
+app.listen(3000, () => {});
