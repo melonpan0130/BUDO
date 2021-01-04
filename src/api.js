@@ -17,5 +17,5 @@ router.get('/test', (req, res)=> {
     });
 });
 
-app.use('/', router);
+// app.use('/hello', router);
 module.exports.handler = serverless(app);
