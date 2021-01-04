@@ -8,7 +8,10 @@ const router = express.Router();
 // app.set('views', '../views');
 
 router.get('/', (req, res)=> {
-    res.render('../views/index.pug');
+    res.json({
+        'hello' : 'hi'
+    });
+    // res.render('../views/index.pug');
 });
 
 router.get('/test', (req, res)=> {
@@ -17,5 +20,5 @@ router.get('/test', (req, res)=> {
     });
 });
 
-app.use('/', router);
+app.use('/.netlify/function/api', router);
 module.exports.handler = serverless(app);
