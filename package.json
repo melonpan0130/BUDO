@@ -4,8 +4,8 @@
   "description": "Lecture for programming",
   "main": "index.js",
   "scripts": {
-    "build": "node index.js",
-    "start": "node index.js"
+    "start": "./node_modules/.bin/netlify-landa serve src",
+    "build": "./node_modules/.bin/netlify-landa build src"
   },
   "keywords": [
     "netlify",

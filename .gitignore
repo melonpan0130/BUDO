@@ -2,3 +2,5 @@
 *.c
 *.cpp
 *.java
+node_modules
+functions
