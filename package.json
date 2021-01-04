@@ -18,6 +18,7 @@
   "homepage": "https://github.com/melonpan0130/BUDO#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "parse-json": "^5.1.0",
     "pug": "^3.0.0"
   }
 }
