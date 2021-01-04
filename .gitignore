@@ -1,4 +1,4 @@
-a.exe
-test.c
-test.cpp
-test.java
+./a.exe
+./test.c
+./test.cpp
+./test.java
