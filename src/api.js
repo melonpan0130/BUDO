@@ -5,7 +5,7 @@ const app = express();
 const router = express.Router();
 
 app.set('view engine', 'pug');
-app.set('views', '../views');
+// app.set('views', '../views');
 
 router.get('/', (req, res)=> {
     res.render('test');
