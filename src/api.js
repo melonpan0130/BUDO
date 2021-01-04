@@ -4,11 +4,11 @@ const serverless = require('serverless-http');
 const app = express();
 const router = express.Router();
 
-app.set('view engine', 'pug');
+// app.set('view engine', 'pug');
 // app.set('views', '../views');
 
 router.get('/', (req, res)=> {
-    res.render('test');
+    res.render('../views/index.pug');
 });
 
 router.get('/test', (req, res)=> {
@@ -17,5 +17,5 @@ router.get('/test', (req, res)=> {
     });
 });
 
-// app.use('/hello', router);
+app.use('/', router);
 module.exports.handler = serverless(app);
